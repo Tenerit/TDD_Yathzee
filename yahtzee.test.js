@@ -4,7 +4,6 @@ test('test one', () => {
     const dices = [3, 4, 3, 2, 1];
     expect(yahtzee.handleBasic(dices, 4)).toBe(4);
     expect(yahtzee.handleBasic(dices, 5)).toBe(0);
-    const dicesP2 = [3, 4, 1, 2, 1];
     expect(yahtzee.handleBasic(dicesP2, 1)).toBe(2);
 });
 

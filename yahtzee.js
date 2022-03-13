@@ -1,11 +1,3 @@
-const DICES = [
-    3,
-    4,
-    5,
-    6,
-    1
-];
-
 const handleBasic = (dices, number) => {
     var cpt = 0;
     dices.forEach(dice => {
@@ -29,7 +21,7 @@ const handleThreeOfKind = (dices) => {
     var isValid = false;
     var i = 0;
 
-    while (i < 6 && !isValid) {
+    while (i <= 5 && !isValid) {
         var dice = dices[i];
 
         if (dice in occurrences) {
@@ -52,7 +44,7 @@ const handleFourOfKind = (dices) => {
     var isValid = false;
     var i = 0;
 
-    while (i < 6 && !isValid) {
+    while (i <= 5 && !isValid) {
         var dice = dices[i];
 
         if (dice in occurrences) {

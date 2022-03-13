@@ -1,8 +1,22 @@
 {
-    "scripts": {
-        "test": "jest"
-    },
-    "dependencies": {
-        "jest": "^27.5.1"
-    }
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^27.5.1"
+  },
+  "name": "tdd_yathzee",
+  "description": "npm i",
+  "version": "1.0.0",
+  "main": "yahtzee.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tenerit/TDD_Yathzee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tenerit/TDD_Yathzee/issues"
+  },
+  "homepage": "https://github.com/Tenerit/TDD_Yathzee#readme"
 }
